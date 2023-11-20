@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2023-11-20T21:03:44.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="97QDRHb7lVwxIsWDva5O" version="21.7.4" type="github">
+  <diagram name="페이지-1" id="_kvWE_ODr7v_r9FruRAJ">
+    <mxGraphModel dx="1221" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1TYZfMBAlFgT1L8jVaF--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1TYZfMBAlFgT1L8jVaF--1" target="1TYZfMBAlFgT1L8jVaF--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1TYZfMBAlFgT1L8jVaF--1" value="Class Base{&lt;br&gt;Base()&lt;br&gt;virtual ~Base()&lt;br&gt;virtaul print()&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1TYZfMBAlFgT1L8jVaF--2" value="Class Derived{&lt;br&gt;Derived()&lt;br&gt;virtual ~Derived()&lt;br&gt;virtual print()&lt;br&gt;}" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1TYZfMBAlFgT1L8jVaF--4" value="상속" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1TYZfMBAlFgT1L8jVaF--5" value="Derived *dp = new Derived;&lt;br&gt;Base *bp = new Derived;&lt;br&gt;dp-&amp;gt;print()&lt;br&gt;bp-&amp;gt;print()&lt;br&gt;delete dp;&lt;br&gt;delete bp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="90" width="221" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1TYZfMBAlFgT1L8jVaF--6" value="두 클래스 생성자 생성&lt;br&gt;부모클래스만 소멸되는 결과&lt;br&gt;왜? Derived 자식 클래스로 &lt;br&gt;동적 할당을 받아 두 생성자 실행됨.&lt;br&gt;힙영역은 클래스 Derived이지만,&amp;nbsp;&lt;br&gt;업캐스트 기본클래스포인터가 &lt;br&gt;파생클래스객체를 바라본다.&lt;br&gt;결국,기본클래스의 멤버들만 쓴다." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="210" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
