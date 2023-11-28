@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T06:49:37.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.4" etag="rLAgZuHZm2YQ0bACDO2z" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T08:40:50.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="I2cMiH4LR0CnFnmIZdTC" version="22.1.4" type="github">
   <diagram name="페이지-1" id="kf_clI3-zUnDliKACS2L">
-    <mxGraphModel>
+    <mxGraphModel dx="1826" dy="1243" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QPYxWmbKvU3KrbAd64kX-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-247" y="231" width="304" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYxWmbKvU3KrbAd64kX-9" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;시멘트&lt;br&gt;보일러 관" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-254.5" y="108" width="317" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYxWmbKvU3KrbAd64kX-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;strokeColor=#99CCFF;" edge="1" parent="1" source="QPYxWmbKvU3KrbAd64kX-1" target="QPYxWmbKvU3KrbAd64kX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYxWmbKvU3KrbAd64kX-1" value="진동센서" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-156" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYxWmbKvU3KrbAd64kX-7" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=#99CCFF;" edge="1" parent="1" source="QPYxWmbKvU3KrbAd64kX-3" target="QPYxWmbKvU3KrbAd64kX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYxWmbKvU3KrbAd64kX-3" value="아두이노" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-156" y="-49" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYxWmbKvU3KrbAd64kX-5" value="무선 통신" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-103" y="66" width="86" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYxWmbKvU3KrbAd64kX-6" value="LCD 층간소음&lt;br&gt;정도 출력" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="78" y="-49" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYxWmbKvU3KrbAd64kX-8" value="UART" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-8" y="-58" width="61" height="31" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
