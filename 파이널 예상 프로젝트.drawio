@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T05:54:12.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.5" etag="f-f6jkEJ3Uu5XqzozDXA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T06:06:39.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4m3prKZLTFKRQViquH3Y" version="22.1.5" type="github">
   <diagram name="페이지-1" id="Q4dFEsNKLa3Ckkn6-XWS">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ChPcoWimubFgYM2GT75S-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChPcoWimubFgYM2GT75S-2" target="ChPcoWimubFgYM2GT75S-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChPcoWimubFgYM2GT75S-2" value="입&amp;nbsp; 구 (신원 확인 구간)&lt;br&gt;&lt;br&gt;번호판 확인, RFID 신원확인, 입구 개폐" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="112" y="180" width="600" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ChPcoWimubFgYM2GT75S-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChPcoWimubFgYM2GT75S-3" target="ChPcoWimubFgYM2GT75S-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChPcoWimubFgYM2GT75S-3" value="차량 시작" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="90" width="146" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ChPcoWimubFgYM2GT75S-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChPcoWimubFgYM2GT75S-4" target="ChPcoWimubFgYM2GT75S-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChPcoWimubFgYM2GT75S-4" value="속도 측정 구간&lt;br&gt;&lt;br&gt;속도 측정 및 급발진, 급정지, 과속 카메라" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="390" width="596" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ChPcoWimubFgYM2GT75S-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChPcoWimubFgYM2GT75S-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChPcoWimubFgYM2GT75S-5" value="차량 센서 및 지도 구간&lt;br&gt;&lt;br&gt;TOF, 초음파 센서를 이용해 들어온 차량을 raylib로 표현" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="630" width="596" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ChPcoWimubFgYM2GT75S-11" value="끝" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="392" y="830" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
