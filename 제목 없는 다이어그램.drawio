@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T00:32:26.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.3" etag="vgrHB3SEcBp0dqaPm1xi" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T21:48:55.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cwIycgXhCIN0AG4RVa-U" version="22.1.5" type="github">
   <diagram name="페이지-1" id="ZaYBOJVqXKFA3-XdZheF">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VSkY373Sku9MAi89PfG0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-2" target="VSkY373Sku9MAi89PfG0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-2" target="VSkY373Sku9MAi89PfG0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="350" as="sourcePoint" />
+            <mxPoint x="315" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="350" />
+              <mxPoint x="490" y="280" />
+              <mxPoint x="315" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-2" value="스크린 도어가 고장났는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-3" value="기관사가 버튼으로 알림" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="460" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-5" value="예" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="410" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-8" value="아니오" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-9" target="VSkY373Sku9MAi89PfG0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-9" value="CO2 센서" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-10" target="VSkY373Sku9MAi89PfG0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-10" value="UNO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-12" target="VSkY373Sku9MAi89PfG0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-12" value="라즈베리파이" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-14" target="VSkY373Sku9MAi89PfG0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-14" value="UNO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-16" value="LED 초록색 출력" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-19" value="공기질 좋음" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="828" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-20" target="VSkY373Sku9MAi89PfG0-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-20" value="UNO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="668" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-21" target="VSkY373Sku9MAi89PfG0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-21" value="라즈베리파이" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="668" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-23" value="UNO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="668" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-26" target="VSkY373Sku9MAi89PfG0-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="846" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-26" value="CO2센서" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="798" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VSkY373Sku9MAi89PfG0-23" target="VSkY373Sku9MAi89PfG0-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="846" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-29" value="LCD출력" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="798" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-30" value="통신" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="618" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VSkY373Sku9MAi89PfG0-31" value="LAC 기지국" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="618" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
